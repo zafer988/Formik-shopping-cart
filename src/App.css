@@ -1,0 +1,207 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-center h1 {
+    font-size: 3rem;
+    color: #0BA6FF;
+}
+
+.inputDiv {
+
+    padding: 1.1rem;
+    margin: 0.5rem;
+    width: 100vh;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+.label {
+    font-weight: bold;
+    margin: 0.5rem;
+    font-size: 1.2rem;
+    color: #0BA6FF;
+
+}
+
+label {
+    color: red;
+    font-size: large;
+}
+
+.button {
+    margin-top: 1rem;
+    width: 100vh;
+    background-color: #0BA6FF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 3rem;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+
+.product-card {
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.product-card:hover {
+    background-color: #f0f0f0;
+    transition: background-color 0.3s ease;
+}
+
+.btn {
+    margin-top: 2rem;
+    width: 100%;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 3rem;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+
+.section {
+    background-color: #e3a0ac;
+    display: flex;
+    height: 50vh;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.section2 {
+    height: 50vh;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.section2 img {
+    width: 50%;
+}
+
+.div p {
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+    margin-top: 30px;
+
+}
+
+.div h2 {
+    color: red;
+    font-size: bold;
+    padding: 10px;
+    text-align: left;
+    margin-top: 50px;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: '20px';
+    font-size: 50px;
+    color: peru;
+    margin: 5vh;
+
+}
+
+
+.inputcontact {
+    padding: 0.9rem;
+    margin: 0.5rem;
+    width: 100vh;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: peru;
+    margin: 5vh;
+}
+
+.login-form {
+    margin-top: -25vh;
+}
+
+
+
+.shop,
+.shop svg {
+
+    width: 25px;
+    height: 25px;
+
+
+}
+
+@media screen and (max-width: 576px) {
+    .inputDiv {
+        width: 300px;
+
+    }
+
+    .label {
+        font-size: 1rem;
+    }
+
+    .button {
+        width: 300px;
+    }
+
+    .inputcontact {
+        width: 300px;
+    }
+
+    .section2 img {
+        width: 100%;
+        margin-top: 10rem;
+    }
+
+
+}
+
+@media screen and (max-width: 768px) {
+    .inputDiv {
+        width: 300px;
+
+    }
+
+    .label {
+        font-size: 1rem;
+    }
+
+    .button {
+        width: 500px;
+    }
+
+    .inputcontact {
+        width: 300px;
+    }
+
+
+
+
+}
