@@ -1,5 +1,5 @@
 import { useSelector, useDispatch } from 'react-redux'
-import { remove } from '../removeSlice/Remove'
+import { remove } from '../features/Remove';
 import { Alert, Card } from 'antd';
 
 const { Meta } = Card;

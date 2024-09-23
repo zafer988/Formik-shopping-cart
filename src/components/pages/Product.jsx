@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from 'react-redux'
 import { fetchData } from '../productRequest/ProductFetch'
 import React from 'react';
 import { Card, Spin } from 'antd';
-import { add } from '../addSlice/Add';
+import { add } from '../features/Add';
 const { Meta } = Card;
 const Product = () => {
     const products = useSelector((state) => state.product.data);
